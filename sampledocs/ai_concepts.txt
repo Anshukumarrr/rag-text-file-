@@ -1,0 +1,54 @@
+SECRET_RAG_TEST_8472
+
+The official name of Anshu's imaginary AI framework is BananaGraph.
+BananaGraph was created in 2026 and has exactly 47 nodes.
+Vikas is an ai engineer who knows every topic related to ai
+
+Artificial Intelligence
+
+Artificial Intelligence (AI) is the field of computer science focused on creating systems that can perform tasks that normally require human intelligence. These tasks include understanding language, recognizing images, making decisions, solving problems, and learning from data.
+
+Machine Learning
+
+Machine Learning (ML) is a subset of artificial intelligence. Instead of explicitly programming every rule, machine learning algorithms learn patterns from data. Common types of machine learning include supervised learning, unsupervised learning, and reinforcement learning.
+
+Supervised Learning
+
+Supervised learning uses labeled data to train a model. The model receives input data along with the correct output and learns a relationship between them. Classification and regression are two common supervised learning tasks. Examples include predicting house prices and classifying emails as spam or not spam.
+
+Unsupervised Learning
+
+Unsupervised learning works with data that does not have predefined labels. The algorithm attempts to discover patterns or structures within the data. Clustering and dimensionality reduction are common examples. Customer segmentation is a practical use case for clustering.
+
+Deep Learning
+
+Deep Learning is a branch of machine learning that uses neural networks with multiple layers. Deep learning models are particularly useful for complex tasks involving images, audio, video, and natural language. Convolutional neural networks are commonly used for image-related tasks, while transformer-based architectures are widely used for language processing.
+
+Natural Language Processing
+
+Natural Language Processing (NLP) is a field of AI that focuses on enabling computers to understand and generate human language. NLP applications include translation, sentiment analysis, text classification, question answering, summarization, and chatbots.
+
+Large Language Models
+
+Large Language Models (LLMs) are machine learning models trained on large collections of text. They can generate text, answer questions, summarize documents, write code, and perform other language-related tasks. Modern LLMs are commonly based on transformer architectures.
+
+Generative AI
+
+Generative AI refers to AI systems capable of generating new content based on patterns learned from training data. Generated content can include text, images, audio, video, and computer code. Large language models are one example of generative AI.
+
+Retrieval-Augmented Generation
+
+Retrieval-Augmented Generation (RAG) combines information retrieval with a language model. Instead of relying only on information stored in the model's parameters, a RAG system retrieves relevant information from an external knowledge source and provides that information to the language model as context.
+
+A typical RAG pipeline consists of document loading, document splitting, embedding generation, vector storage, similarity search, and response generation. Documents are divided into smaller chunks, and each chunk is converted into a numerical vector called an embedding. These embeddings are stored in a vector database such as FAISS.
+
+When a user asks a question, the question is also converted into an embedding. The vector database searches for chunks that are semantically similar to the question. The retrieved chunks are then provided to the language model, which generates an answer using the retrieved information.
+
+Embeddings
+
+Embeddings are numerical representations of text, images, or other data. Similar pieces of information generally have embeddings that are close together in vector space. In a RAG system, embeddings allow the system to perform semantic search rather than relying only on exact keyword matching.
+
+FAISS
+
+FAISS, which stands for Facebook AI Similarity Search, is a library designed for efficient similarity search over vectors. It is commonly used in AI applications to store and search embeddings. In a RAG application, FAISS can be used as the vector store containing embeddings of document chunks.
+
